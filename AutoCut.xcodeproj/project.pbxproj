@@ -11,7 +11,35 @@
 		15EA66832A82290E00D86172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA66822A82290E00D86172 /* ContentView.swift */; };
 		15EA66852A82290F00D86172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EA66842A82290F00D86172 /* Assets.xcassets */; };
 		15EA66892A82290F00D86172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EA66882A82290F00D86172 /* Preview Assets.xcassets */; };
+		15EA66962A822B0A00D86172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EA66952A822B0A00D86172 /* Assets.xcassets */; };
+		15EA66982A822B0A00D86172 /* MomentModifierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EA66972A822B0A00D86172 /* MomentModifierViewController.xib */; };
+		15EA669B2A822B0A00D86172 /* MomentModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA669A2A822B0A00D86172 /* MomentModifierViewController.swift */; };
+		15EA66A02A822B0A00D86172 /* MomentModifier.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 15EA66932A822B0A00D86172 /* MomentModifier.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15EA669E2A822B0A00D86172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EA66752A82290E00D86172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EA66922A822B0A00D86172;
+			remoteInfo = MomentModifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15EA66A42A822B0A00D86172 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15EA66A02A822B0A00D86172 /* MomentModifier.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		15EA667D2A82290E00D86172 /* AutoCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +48,24 @@
 		15EA66842A82290F00D86172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15EA66862A82290F00D86172 /* AutoCut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoCut.entitlements; sourceTree = "<group>"; };
 		15EA66882A82290F00D86172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15EA66932A822B0A00D86172 /* MomentModifier.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MomentModifier.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EA66952A822B0A00D86172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EA66972A822B0A00D86172 /* MomentModifierViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentModifierViewController.xib; sourceTree = "<group>"; };
+		15EA66992A822B0A00D86172 /* MomentModifier-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MomentModifier-Bridging-Header.h"; sourceTree = "<group>"; };
+		15EA669A2A822B0A00D86172 /* MomentModifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentModifierViewController.swift; sourceTree = "<group>"; };
+		15EA669C2A822B0A00D86172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EA669D2A822B0A00D86172 /* MomentModifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MomentModifier.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		15EA667A2A82290E00D86172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA66902A822B0A00D86172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				15EA667F2A82290E00D86172 /* AutoCut */,
+				15EA66942A822B0A00D86172 /* MomentModifier */,
 				15EA667E2A82290E00D86172 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				15EA667D2A82290E00D86172 /* AutoCut.app */,
+				15EA66932A822B0A00D86172 /* MomentModifier.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +113,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		15EA66942A822B0A00D86172 /* MomentModifier */ = {
+			isa = PBXGroup;
+			children = (
+				15EA66952A822B0A00D86172 /* Assets.xcassets */,
+				15EA66972A822B0A00D86172 /* MomentModifierViewController.xib */,
+				15EA66992A822B0A00D86172 /* MomentModifier-Bridging-Header.h */,
+				15EA669A2A822B0A00D86172 /* MomentModifierViewController.swift */,
+				15EA669C2A822B0A00D86172 /* Info.plist */,
+				15EA669D2A822B0A00D86172 /* MomentModifier.entitlements */,
+			);
+			path = MomentModifier;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +136,34 @@
 				15EA66792A82290E00D86172 /* Sources */,
 				15EA667A2A82290E00D86172 /* Frameworks */,
 				15EA667B2A82290E00D86172 /* Resources */,
+				15EA66A42A822B0A00D86172 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				15EA669F2A822B0A00D86172 /* PBXTargetDependency */,
 			);
 			name = AutoCut;
 			productName = AutoCut;
 			productReference = 15EA667D2A82290E00D86172 /* AutoCut.app */;
 			productType = "com.apple.product-type.application";
+		};
+		15EA66922A822B0A00D86172 /* MomentModifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EA66A12A822B0A00D86172 /* Build configuration list for PBXNativeTarget "MomentModifier" */;
+			buildPhases = (
+				15EA668F2A822B0A00D86172 /* Sources */,
+				15EA66902A822B0A00D86172 /* Frameworks */,
+				15EA66912A822B0A00D86172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentModifier;
+			productName = MomentModifier;
+			productReference = 15EA66932A822B0A00D86172 /* MomentModifier.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +176,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					15EA667C2A82290E00D86172 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					15EA66922A822B0A00D86172 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -118,6 +197,7 @@
 			projectRoot = "";
 			targets = (
 				15EA667C2A82290E00D86172 /* AutoCut */,
+				15EA66922A822B0A00D86172 /* MomentModifier */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +209,15 @@
 			files = (
 				15EA66892A82290F00D86172 /* Preview Assets.xcassets in Resources */,
 				15EA66852A82290F00D86172 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA66912A822B0A00D86172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA66982A822B0A00D86172 /* MomentModifierViewController.xib in Resources */,
+				15EA66962A822B0A00D86172 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +233,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15EA668F2A822B0A00D86172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA669B2A822B0A00D86172 /* MomentModifierViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15EA669F2A822B0A00D86172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EA66922A822B0A00D86172 /* MomentModifier */;
+			targetProxy = 15EA669E2A822B0A00D86172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		15EA668A2A82290F00D86172 /* Debug */ = {
@@ -259,6 +364,7 @@
 		15EA668D2A82290F00D86172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AutoCut/AutoCut.entitlements;
@@ -267,6 +373,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AutoCut/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QTDZL26N8;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -297,6 +404,7 @@
 		15EA668E2A82290F00D86172 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AutoCut/AutoCut.entitlements;
@@ -305,6 +413,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AutoCut/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QTDZL26N8;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -332,6 +441,108 @@
 			};
 			name = Release;
 		};
+		15EA66A22A822B0A00D86172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = /Library/Developer/SDKs/WorkflowExtensionSDK.sdk;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MomentModifier/MomentModifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QTDZL26N8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MomentModifier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MomentModifier;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					"$(inherited)",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-fapplication-extension",
+					"-e_ProExtensionMain",
+					"-lProExtension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = juanlucasumali.AutoCut.MomentModifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MomentModifier/MomentModifier-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
+		15EA66A32A822B0A00D86172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = /Library/Developer/SDKs/WorkflowExtensionSDK.sdk;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MomentModifier/MomentModifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QTDZL26N8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MomentModifier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MomentModifier;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					"$(inherited)",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-fapplication-extension",
+					"-e_ProExtensionMain",
+					"-lProExtension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = juanlucasumali.AutoCut.MomentModifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MomentModifier/MomentModifier-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -349,6 +560,15 @@
 			buildConfigurations = (
 				15EA668D2A82290F00D86172 /* Debug */,
 				15EA668E2A82290F00D86172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EA66A12A822B0A00D86172 /* Build configuration list for PBXNativeTarget "MomentModifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA66A22A822B0A00D86172 /* Debug */,
+				15EA66A32A822B0A00D86172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
